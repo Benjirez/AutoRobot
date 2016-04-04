@@ -28,10 +28,10 @@ Hotkey('Alt 8', () => {
 ```
 
 ### Hotstrings
-Hotstrings are defined with the function ``Hotstring`` which accepts two strings for its parameters. In the provided example below we will type out the current date when the user writes 'ddate' 
+Hotstrings are defined with the function ``Hotstring`` which accepts two strings for its parameters. In the provided example below we will type out the current date when the user writes ``'ddate'`` 
 
 ```javascript
-Hotstring('@@', new Date().toString());
+Hotstring('ddate', new Date().toString());
 ```
 
 The ``ddate`` will be erased by default, which can be overridden. Please see the full API for additional information.
